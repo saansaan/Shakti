@@ -1,0 +1,152 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "shakti",
+  "name": "shakti",
+  "supportedLocales": [],
+  "countryRestrictions": [
+    "AF",
+    "AL"
+  ],
+  "verticals": {
+    "atms": {
+      "entityTypes": [
+        "atm"
+      ],
+      "name": "ATMs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "name": "Events",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "locations": {
+      "entityTypes": [
+        "location"
+      ],
+      "name": "locations",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "sssss",
+        "synonyms": [
+          "ssssss"
+        ]
+      }
+    ],
+    "synonymSet": [
+      [
+        "ssss",
+        "jhdsjh"
+      ]
+    ],
+    "normalization": [
+      {
+        "from": [
+          "ssss"
+        ],
+        "to": "ssss"
+      }
+    ]
+  },
+  "timeout": 222,
+  "localizations": {},
+  "rules": [
+    {
+      "criteria": {},
+      "actions": [],
+      "name": "sjkhhjkhkj"
+    },
+    {
+      "criteria": {},
+      "actions": [],
+      "name": "ssssss"
+    },
+    {
+      "criteria": {},
+      "actions": [],
+      "name": "ssssss"
+    }
+  ],
+  "additionalStopWords": [
+    "sss"
+  ],
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": true,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "ssshakti"
+    ],
+    "verticalPrompts": {
+      "atms": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]"
+      ],
+      "events": [
+        "Events in [[address.city]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]"
+      ]
+    }
+  }
+}
